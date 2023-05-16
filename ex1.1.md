@@ -1,7 +1,5 @@
 # sicp exercises
 
-**page
-
 ## 1.1 - what is the printed result?
 
 10 => 10
