@@ -1,6 +1,6 @@
 # notes for sicp cs61a ucb
 
-[reader 1](https://inst.eecs.berkeley.edu//~cs61a/reader/vol1.html)
+[reader 1: https://inst.eecs.berkeley.edu//~cs61a/reader/vol1.html](https://inst.eecs.berkeley.edu//~cs61a/reader/vol1.html)
 
 ## homework
 
@@ -22,6 +22,6 @@ see: sicp section 2.2.4
 
 **Logo Interpreter** (see: `logo.scm`, `logo-meta.scm`, `tables.scm`, `obj.scm`)
 
-[reader 2](https://inst.eecs.berkeley.edu//~cs61a/reader/vol2.html)
+[reader 2: https://inst.eecs.berkeley.edu//~cs61a/reader/vol2.html](https://inst.eecs.berkeley.edu//~cs61a/reader/vol2.html)
 
 
