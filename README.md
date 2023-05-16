@@ -24,7 +24,7 @@ see here: https://people.eecs.berkeley.edu/~bh/61a-pages/Scheme/
 
 and here: https://stklos.net/download.html
 
-also there's hexlet.io, here: https://sicp.hexlet.io/
+also there's hexlet.io, here: https://sicp.hexlet.io/ which looks pretty cool to track your progress
 
 [reader 1: https://inst.eecs.berkeley.edu//~cs61a/reader/vol1.html](https://inst.eecs.berkeley.edu//~cs61a/reader/vol1.html)
 

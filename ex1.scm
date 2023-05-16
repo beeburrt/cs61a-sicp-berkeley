@@ -1,6 +1,6 @@
-# sicp exercises
+;; 1.1
 
-## 1.1 - what is the printed result?
+;; what is the printed result?
 
 10 => 10
 
@@ -35,22 +35,29 @@
          (else -1))
     (+ a 1)) => 16
 
-## 1.2 - translate the following into prefix form
+;; 1.2
+
+;; translate the following into prefix form
 
 (/ (+ 5 (+ 4 (- 2 (- 3 (+ 6 (/ 4 5))))))
    (* 3 (- 6 2) (- 2 7)))
 
-## 1.3 - define: takes 3 args, returns sum of squares of 2 larger
+;; 1.3
+;; define a procedure that takes 3 args, returns the sum of squares of the 2 larger numbers
 
-(define (sqaure x) (* x x))
+(define (square x)
+    (* x x))
 
 (define (sum-of-squares x y)
-          (+ (square x) (square y)))
+    (+ (square x) (square y)))
 
-(define (max-of-two a b)
-          (if (> a b) a)
-            b)
+(define (sum-of-squares-max-two a b c)
+    (if (>= a b)
+        (if (> b c)
+            (sum-of-squares a b)
+            (sum-of-squares a c))
+        (if (> a c)
+            (sum-of-squares a b)
+            (sum-of-squares b c))))
 
-(define (sum-of-squares-max-two x y z)
-          )
-
+;; 1.4
