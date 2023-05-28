@@ -61,3 +61,9 @@
             (sum-of-squares b c))))
 
 ;; 1.4
+;; 1.5
+;; 1.6
+;; The `new-if` program won't work right, since every number other than 0 (zero)
+;;  is false, every predicate will succeed whether it is true or false.
+;; 1.7
+ 
